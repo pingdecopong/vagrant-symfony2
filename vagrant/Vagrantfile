@@ -99,8 +99,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.cookbooks_path = "../chef-repo/cookbooks"
     chef.add_recipe "yum::epel"
     chef.add_recipe "yum::ius"
-    chef.add_recipe "composer"
     chef.add_recipe "common"
+    chef.add_recipe "composer"
+    chef.add_recipe "symfony2"
 
     chef.json = {
       'apache' => {

@@ -5,5 +5,3 @@ default["php54"]["xdebug"]["remote_port"] = "9000"
 
 
 default["apache"]["document_root"] = "/share"
-
-default['symfony2']['remote_host'] = "192.168.100.10"

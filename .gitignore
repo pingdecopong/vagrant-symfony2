@@ -22,3 +22,6 @@ vagrant/.vagrant
 ._*
 .Spotlight-V100
 .Trashes
+
+########## other ##########
+web/app_dev.php
